@@ -1,0 +1,40 @@
+client side
+---------------
+1. www.google.com => request to server
+2. get the response
+
+server side
+---------------
+1. after processing, send response back
+
+
+=============================================
+to start => npm init 
+to install all packages => npm i
+to install globallay => npm i -g  <pckgnm> 
+to uninstall => npm uninstall <pckgnm>
+
+
+
+
+package.json
+-------------
+dependencies=> like express and more
+
+package-lock.json
+----------------
+all the dependencies tree of the modules we used 
+
+
+
+
+npm i --save-dev nodemon
+=> to only use while using development period
+
+
+
+
+commonJs vs ECMAScript modules
+-------------------------------------
+const c = require("./abc.js) => commonJs
+import {a} from "./abc.mjs" => ECMAScript => have to use .mjs extension
